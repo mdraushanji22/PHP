@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,11 +6,33 @@
     <title>GET or POST Method</title>
   </head>
   <body>
-    <form>
-      username: <input type="text" />
-      password:
-      <input type="text" />
-      submit:<input type="submit" />
+    <h1>Login Form</h1>
+    <form action="method.php" method="POST">
+      username: <input type="text" name="username" /> password:
+      <input type="password" name="passcode" /> submit:<input type="submit" />
+    </form>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PHP Form Submit</title>
+  </head>
+  <body>
+    <h2>Contact Form</h2>
+
+    <form action="submit.php" method="POST">
+      <label>Name:</label><br />
+      <input type="text" name="name" required /><br /><br />
+
+      <label>Email:</label><br />
+      <input type="email" name="email" required /><br /><br />
+      <label>Password:</label><br />
+      <input type="password" name="passcode" required /><br /><br />
+      <label>Message:</label><br />
+      <textarea name="message" required></textarea><br /><br />
+
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
