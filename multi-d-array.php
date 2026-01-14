@@ -17,12 +17,17 @@
         [4, "Khan", "mdraushanji22gmail.com", 24]
     ];
 
+    echo "<table border='1' cellpadding='10' cellspacing='0'>";
+
     for ($i = 0; $i < count($users); $i++) {
+        echo "<tr>";
         for ($j = 0; $j < count($users[$i]); $j++) {
-            echo $users[$i][$j] . " ";
+            echo "<td>{$users[$i][$j]}</td>";
         }
-        echo "<br>";
+        echo "</tr>";
     }
+
+    echo "</table>";
     ?>
 </body>
 
