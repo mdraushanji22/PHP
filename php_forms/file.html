@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Upload File</title>
   </head>
   <body>
-    <form action="./file.php" method="post">
-      <input type="file" name="fileupload" />
-      <br />
-      <br />
-      <button type="submit">File Upload</button>
+    <h2>Upload File using PHP</h2>
+
+    <form action="file.php" method="POST" enctype="multipart/form-data">
+      <input type="file" name="myfile" required />
+      <br /><br />
+      <input type="submit" value="Upload" />
     </form>
   </body>
 </html>
