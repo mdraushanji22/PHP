@@ -26,7 +26,7 @@ if (isset($_POST['button'])) {
     if ($_POST['button'] == "set") {
 
         $val = $_POST['user'];
-        echo $val;
+        setcookie("user", $val); 
     }
 }
 
