@@ -22,6 +22,7 @@
 <?php
 
 if (isset($_POST['filename'])) {
+    //Create file
 
     $fileName = "files/" . $_POST['filename'];
     $content = $_POST['content'];
