@@ -25,6 +25,7 @@ if (isset($_POST['filename'])) {
 
     $fileName = "files/" . $_POST['filename'];
     $content = $_POST['content'];
+    echo "<br>";
 
     // If folder does NOT exist, create it
     if (!file_exists("files")) {
