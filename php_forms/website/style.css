@@ -1,0 +1,33 @@
+.heading,
+.header h3 {
+  color: orange;
+}
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+}
+.header ul li {
+  width: 60px;
+}
+.header ul li a {
+  text-decoration: none;
+}
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  margin-top: 70px;
+}
+.footer ul li {
+  padding: 5px;
+}
