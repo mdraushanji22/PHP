@@ -1,1 +1,1 @@
-## PHP is a server side scripting language 
+## PHP(hypertext preprocessor) is a server side scripting language 
